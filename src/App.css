@@ -1,0 +1,59 @@
+/************** CSS PRESETS **************/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, fieldset, label, legend, nav {
+  margin: 0;
+  outline: 0;
+  vertical-align: top;
+  background: transparent;
+}
+
+body, option, select {
+  font-family: 'PT Sans', sans-serif;
+}
+
+header, button, h1, input, legend, textarea, ::placeholder {
+  font-family: 'PT Serif', serif;
+}
+
+body {
+  background-color: white;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/**********************************************************
+  APP
+**********************************************************/
+
+.App {
+
+}
+
+/************** HEADER **************/
+
+.header {
+  background-color: black;
+  color: firebrick;
+  /* Make sticky */
+  /* Make small when stuck */
+}
+
+header button:last-of-type {
+  margin-left: 3px;
+}
+
+.title {
+  font-size: 3em;
+  margin: 0 !important;
+}
+
+/************** END OF HEADER **************/
+
+
+/************** CONTENT **************/
+
+.intro {
+  font-size: large;
+}
+
+/************** END OF CONTENT **************/
